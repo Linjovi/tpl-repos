@@ -3,7 +3,7 @@
  *
  * @version  1.0
  * @author  {{author}} {{email}} {{date}}
- * @module   
+ * @module  {{name[0].toUpperCase() + name.slice(1)}}
  */
 NEJ.define([
     'pool/component-base/src/base'

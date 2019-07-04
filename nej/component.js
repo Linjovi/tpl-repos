@@ -2,7 +2,7 @@
  * {{name}} 组件实现文件
  *
  * @version  1.0
- * @author  {{author}}{{email}} {{date}}
+ * @author  {{author}} {{email}} {{date}}
  * @module   
  */
 NEJ.define([

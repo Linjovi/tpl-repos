@@ -10,7 +10,9 @@ import { Component, Vue, Prop } from 'vue-property-decorator'
 @Component({
   name:"{{name}}"
 })
-export default class {{name[0].toUpperCase() + name.slice(1)}} extends Vue {
+export default class {{(name.[0].toUpperCase() + name.slice(1)).replace(/\-(\w)/g, function(all, letter){
+        return letter.toUpperCase();
+    })}} extends Vue {
   @Prop(type)private propName = propValue;
 }
 </script>
